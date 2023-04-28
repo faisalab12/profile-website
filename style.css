@@ -1,0 +1,53 @@
+section{
+    padding: 128px;
+}
+
+.btn{
+    border: 3px solid #66b3ff;
+    border-radius: 24px;
+    background-color: #66b3ff;
+    color: white;
+}
+
+.btn:hover{
+    border: 3px solid #66b3ff;
+    border-radius: 24px;
+    color: #66b3ff ;
+}
+
+.navbar{
+    background-color: #66b3ff;
+    box-shadow: 0 2px;
+}
+
+section h1{
+    font-size: 70px;
+}
+
+section h3{
+    font-size: 40px;
+}
+
+section p{
+    font-size: 20px;
+}
+
+.home .arrow img{
+    width: 80px;
+}
+
+#swipe{
+    animation: 2s swipe infinite;
+}
+
+@keyframes swipe {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
